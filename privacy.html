@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Snap for Jones IT Privacy Policy</title>
+  <style>
+    body { max-width: 760px; margin: 48px auto; padding: 0 24px; font: 17px/1.6 system-ui, sans-serif; color: #1f2937; }
+    h1, h2 { line-height: 1.2; }
+    h2 { margin-top: 2em; }
+    a { color: #6d28d9; }
+  </style>
+</head>
+<body>
+  <h1>Snap for Jones IT Privacy Policy</h1>
+  <p>Updated October 15, 2026.</p>
+
+  <p>Snap for Jones IT is an internal Jones IT edition of the Snap for Harvest Chrome extension. It lets
+  Jones IT employees log time to Jones IT Tracker or to Harvest from the page they are working on. Each
+  person chooses which one Snap uses.</p>
+
+  <h2>What Snap reads</h2>
+  <p>When you open Snap on a page, it reads that page's address (URL) and title, or its visible
+  heading, to fill in the notes and documentation link for a time entry. You can edit both before
+  saving. Snap does not read this until you open it. It does not read page contents beyond the title
+  or heading, and it does not read cookies, passwords, or form fields. It does not collect your browsing
+  history or send information about pages where you don't open Snap.</p>
+
+  <h2>Jones IT Tracker mode</h2>
+  <p>In Tracker mode Snap talks only to Jones IT's Tracker service at
+  <a href="https://tracker.itjones.com">tracker.itjones.com</a>, over HTTPS. It sends:</p>
+  <ul>
+    <li>The page address and your notes while you prepare an entry, so Tracker can suggest a client,
+    project, and task.</li>
+    <li>The time entries you save, start, switch, or stop: date, duration, project, task, notes,
+    documentation link, billable status, and whether to copy the entry to Harvest.</li>
+  </ul>
+  <p>To connect, you sign in with your Jones IT Google account on the Tracker website and approve the
+  request. Snap then receives a personal, revocable connection key for your own time and assigned
+  projects. The key is kept in the extension's local storage on your device, where web pages cannot
+  read it. To open faster, Snap keeps a copy of your project list and running timer in Chrome's session
+  storage, which is cleared when you close the browser.</p>
+  <p>If you choose Copy to Harvest, Tracker sends that entry to Jones IT's Harvest account.</p>
+
+  <h2>Harvest mode</h2>
+  <p>In Harvest mode Snap opens Harvest's own timer from
+  <a href="https://platform.harvestapp.com">platform.harvestapp.com</a> and passes it the page address
+  and title. You sign in to Harvest directly, and Snap never sees your Harvest password or account data.
+  Snap watches for Harvest's own "timer stopped" requests only to update its button on your device.
+  Harvest's handling of your data is covered by
+  <a href="https://www.getharvest.com/privacy-policy">Harvest's privacy policy</a>.</p>
+
+  <h2>Stored on your device</h2>
+  <ul>
+    <li>Your settings, such as which platform to use, enabled sites, and the Snap button position, are
+    stored in Chrome's sync storage. Chrome may sync them across your own devices.</li>
+    <li>Your Tracker connection key is stored in the extension's local storage.</li>
+    <li>Site icons next to documentation links come from Chrome's own icon cache on your device.</li>
+  </ul>
+
+  <h2>What Snap does not do</h2>
+  <p>Snap has no analytics, advertising, or tracking, and it does not sell or share your data. It does
+  not run code downloaded from the internet. Its settings page loads fonts from Google Fonts.</p>
+
+  <h2>Who can see your time</h2>
+  <p>Jones IT administrators can review Tracker time records and their change history. Time copied to
+  or logged in Harvest is visible to Jones IT's Harvest account administrators.</p>
+
+  <h2>Disconnecting and retention</h2>
+  <p>You can disconnect Tracker from Snap's settings or revoke the connection on Tracker's Connections
+  page. Disconnecting removes the key from your device but does not delete time you already saved.
+  Tracker keeps time records, their history, and backups as Jones IT's work record.</p>
+
+  <h2>Contact</h2>
+  <p>Questions, or a request to review or remove data: <a href="mailto:evan@itjones.com">evan@itjones.com</a>.</p>
+</body>
+</html>
